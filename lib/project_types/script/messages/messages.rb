@@ -63,6 +63,10 @@ module Script
                                                 "configuration. %{message}",
           configuration_definition_error_help: "Fix the error and try again.",
 
+          configuration_definition_errors_cause: "In the %{filename} file, there were %{error_count} problems with the "\
+                                                "configuration:\n%{concatenated_messages}\n",
+          configuration_definition_errors_help: "Fix the errors and try again.",
+
           configuration_syntax_error_cause: "The %{filename} is not formatted properly.",
           configuration_syntax_error_help: "Fix the errors and try again.",
 
